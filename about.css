@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-main{
+    height: 47vh;
+    width: 100vw;
+    background-color:gainsboro;
+}
+#module {
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 47vh;
+    position: relative;
+    top:4rem;
+    background-color:white;
+    width: 100vw;
+  }
+  .Half-sen{
+      font-size: 2rem;
+      font-weight: 100;
+      position:relative;
+      top:2.7rem;
+      margin-left: 4.4rem;
+      font-family: sans-serif;
+      color: orangered;
+  }
+  #module > h3{
+      margin-top: 4rem;
+      margin-left: 4.4rem;
+      width: 95rem;
+  }
+  #module p.collapse[aria-expanded="false"] {
+    display: block;
+    height: 3rem !important;
+    overflow: hidden;
+  }
+  #collapseExample{
+    margin-top: 2rem;
+    margin-left: 4.4rem;
+    width: 95rem;
+  }
+  #module p.collapse.show[aria-expanded="false"] {
+    height: 6rem !important;
+  }
+  
+  #module a.collapsed:after {
+    content: 'Read More';
+    margin-left: 4.4rem;
+    color: orangered;
+  }
+
+  #module a:not(.collapsed):after {
+    content: '- Show Less';
+  }
+  .fact-sheet{
+      width: 100vw;
+      height: 132vh;
+      background-color:gainsboro;
+  }
+  .line{
+    background-color: orangered;
+    width: .3rem;
+    height: 2.6rem;
+    margin-left: 4.4rem;
+    top: 6.4rem;
+    position: relative;
+}
+.fact-sheet > h1{
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left:5.2rem;
+    color: orangered;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.table{
+    height: 110vh;
+    width: 87vw;
+    position: relative;
+    left: 5.5rem;
+    top: 1.5rem;
+    background-color: white;
+}
+.basic-info > h2{
+color: orangered;
+font-size: 2rem;
+position: relative;
+top: 3rem;
+left: 35.1rem;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  #customers{
+      position: relative;
+      top: 6rem;
+  }
+
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .infrastructure > h2{
+    color: orangered;
+    font-size: 2rem;
+    position: relative;
+    top: 7rem;
+    right: -1rem;
+    }
+    #location {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      position: relative;
+      top:5rem;
+    }
+    
+    #location td, #location th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    #location{
+        position: relative;
+        top: 6rem;
+    }
+  
+    #location tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #location tr:hover {background-color: #ddd;}
+    
+    #location th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #04AA6D;
+      color: white;
+    }
+    .profile > h2{
+      color: orangered;
+      font-size: 2rem;
+      position: relative;
+      top: 9rem;
+      right: -1rem;
+      }
+      #GST {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        position: relative;
+        top: 10rem;
+      /* left: 35.1rem; */
+      }
+      
+      #GST td, #location th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      #location{
+          position: relative;
+          top: 8rem;
+      }
+    
+      #GST tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #GST tr:hover {background-color: #ddd;}
+      
+      #GST th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
+      .enquiry{
+        height: 55vh;
+        width: 100vw;
+
+      }
+      #exampleFormControlTextarea1{
+        margin-top: 13rem;
+      }
+      .card{
+        height: 50vh;
+        width: 60vw;
+        margin-left: 20rem;
+        margin-top: 3rem;
+        background-color: orangered;
+      }
+      .card > h1{
+        color: white;
+        position: relative;
+        top: 3rem;
+        margin-left: 14rem;
+      }
