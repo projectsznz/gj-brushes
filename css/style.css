@@ -10146,12 +10146,20 @@
 	padding-top:var(--padding-top-35);
 }
 
-.project-detail-section .middle-box h3{
-	font-weight:800;
+ .project-detail-section .middle-box h3{
+	font-weight:400;
+	font-size:var(--font-36);
+	color:var(--color-fourty);
+	margin-bottom:var(--margin-bottom-15);
+} 
+
+.project-detail-section .upper-box h3{
+	font-weight:700;
 	font-size:var(--font-36);
 	color:var(--color-fourty);
 	margin-bottom:var(--margin-bottom-15);
 }
+
 
 .project-detail-section .middle-box p{
 	position:relative;
@@ -11987,3 +11995,24 @@
 }
 
 
+.overall {
+    background-color:#DEDEDE;
+}
+.white-space{
+    background-color: white;
+    height:70px;
+}
+.interest-button{
+    height:40px;
+    width:200px;
+    color:gray;
+    margin-left: 30px;
+    margin-bottom: 30px;
+	border-radius: 5px;
+	color:White;
+    background: var(--color-fourtyone);
+    background: linear-gradient(to right, var(--color-fourtyone) 0%, var(--color-fourtytwo) 100%);
+}
+.modal-body > img {
+	border-radius: 10px;
+}
