@@ -11,6 +11,7 @@
 @import url('jquery-ui.css');
 @import url('custom-animate.css');
 @import url('magnific-popup.css');
+
 @import url('odometer-theme-default.css');
 @import url('jquery.mCustomScrollbar.min.css');
 
@@ -169,8 +170,13 @@
 	height:220px;
 	border: 2px solid #f5f5f5;
 }
+/* body{
+	background-color: gray;
+} */
 .im{
 	padding:20px;
+	min-height: 100px;
+	max-height: 250px;
 }
 form {
 	width: 300px;
@@ -8364,21 +8370,27 @@ form {
 	background-position:center center;
 	background-repeat:no-repeat;
 }
+.full{
+	
+	background-color:#f2f2f2;
+}
 .overall{
 	/* margin-left:-5.5rem; */
-	background-color:#DEDEDE;
+	/* background-color:#DEDEDE; */
 	/* width:10rem; */
 	margin:1px;
 	padding-top: 50px;
-	
-	width:100%;
 	padding-left: 30px;
 
 }
+ .overall-head{
+	font-weight:700;
+	font-family:var(--font-family-BeVietnam);
+	font-size:var(--font-32);
+	color:var(--color-fourty);
+	margin-bottom:var(--margin-bottom-15);
 
-.overall-head{
-	color:#cd201f;	
-}
+} 
 /* color: var(--color-fourtyone);
     color: linear-gradient(to right, var(--color-fourtyone) 0%, var(--color-fourtytwo) 100%); */
 	/* color: -webkit-linear-gradient(rgb(169,0,61), rgb(243,48,1));
@@ -8390,6 +8402,9 @@ form {
 
    
 } */
+.sub-btn{
+	background-color: #cd201f;
+}
 .interest-button{
 	height:40px;
 	width:200px;
@@ -8397,7 +8412,6 @@ form {
 	color:White;
 	background: var(--color-fourtyone);
     background: linear-gradient(to right, var(--color-fourtyone) 0%, var(--color-fourtytwo) 100%);
-	margin-left: 30px;
 	margin-bottom: 30px;
 }
 
@@ -10101,7 +10115,7 @@ form {
 .project-detail-section{
 	position:relative;
 	overflow:hidden;
-	padding:110px 0px 110px;
+	padding:110px 0px ;
 }
 
 .project-detail-section  .pattern-layer{
@@ -10219,8 +10233,9 @@ form {
 }
 
 .project-detail-section .middle-box h3{
-	font-weight:800;
-	font-size:var(--font-36);
+	font-weight:700;
+	font-family:var(--font-family-BeVietnam);
+	font-size:var(--font-32);
 	color:var(--color-fourty);
 	margin-bottom:var(--margin-bottom-15);
 }
