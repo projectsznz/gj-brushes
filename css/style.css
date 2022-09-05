@@ -11746,18 +11746,12 @@
 	justify-content: center;
 	align-items: center;
 }
-/* .enquiry-box-container{
-	margin: auto;
-} */
+
 .enquiry-section .enquiry-box-container .enquiry-content h2{
     margin: 24px 0;
 	color: #ff0000;
 	text-align: center;
 }
-/* .enquiry-content form{
-	font-display: flex;
-	align-items: center;
-} */
 .enquiry-section .enquiry-box-container .enquiry-content form{
 	display: flex;
 	flex-direction: column;
@@ -11814,8 +11808,6 @@
 	margin: 24px 0;
 	display: flex;
 	border-radius: 3px;
-	/* justify-content: center; */
-	/* align-items: center; */
 	flex-direction: column;
 
 
@@ -11952,7 +11944,6 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2px;
 	color: white;
-	/* margin-left: 10px; */
 }
  .ms-3{
     color: white;
@@ -11962,8 +11953,6 @@
 	float: left;
 	color: white;
 	font-size: 12px;
-    /* margin-left: 210px; */
-    /* margin-top: -80px; */
 }
 .review-button{
     margin-left: 600px;
@@ -11992,7 +11981,6 @@
 	
 }
 .user-review-more-btn button:hover{
-	/* color: #ff0000; */
 	background-color:black;
 	cursor: pointer;
 	transition-duration: .8s;
