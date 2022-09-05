@@ -11985,5 +11985,32 @@
 	cursor: pointer;
 	transition-duration: .8s;
 }
-
-
+.wire-brushes-heading{
+	font-size: 40px;
+	font-size: 41px;
+}
+.interest-button{	
+    height:40px;	
+    width:200px;	
+    margin-bottom: 30px;	
+	border-radius: 5px;	
+	color:White;	
+    background: var(--color-fourtyone);	
+    background: linear-gradient(to right, var(--color-fourtyone) 0%, var(--color-fourtytwo) 100%);	
+}	
+.modal-body > img {	
+	border-radius: 10px;	
+}	
+.full {	
+	background-color: #f2f2f2;	
+		
+}	
+input[type=text] {	
+	width: 100%;	
+	padding: 12px 20px;	
+	margin: 8px 0;	
+	display: inline-block;	
+	border: 1px solid #ccc;	
+	border-radius: 4px;	
+	box-sizing: border-box;	
+  }
