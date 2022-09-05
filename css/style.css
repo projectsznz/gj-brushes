@@ -3338,14 +3338,14 @@
 
 .products-section .owl-nav .owl-prev{
 	position:absolute;
-	left:0px;
+	left:-120px;
 	font-family: "Flaticon";
 	font-size: var(--font-20);
 }
 
 .products-section .owl-nav .owl-next{
 	position:absolute;
-	right:0px;
+	right:-120px;
 	font-family: "Flaticon";
 	font-size: var(--font-20);
 }
@@ -3494,7 +3494,6 @@
 	right:0px;
 	bottom:0px;
 	opacity:0;
-	border-radius:50%;
 	background-color:var(--main-color);
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
@@ -3514,7 +3513,6 @@
 	height:190px;
 	margin:0 auto;
 	overflow:hidden;
-	border-radius:50%;
 	background-color:var(--white-color);
 	box-shadow:0px 10px 15px rgba(0,0,0,0.10);
 }
