@@ -10185,6 +10185,9 @@
 	margin-top:var(--margin-top-40);
 	margin-bottom:var(--margin-bottom-10);
 }
+.project-detail-section > h1 {
+	text-align: center;
+}
 
 /* Feature Block Three */
 
@@ -10335,6 +10338,9 @@
 
 .project-detail-section .more-posts .next-post .thumb-image img{
 	opacity:0.80;
+}
+.wire-brushes-heading{
+	font-size: 40px;
 }
 
 .project-detail-section .more-posts .next-post .arrow{
