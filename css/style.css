@@ -11711,6 +11711,7 @@
 	color:#ff0000;
 	font-weight:500;	
 }
+
 .product-list-container{
 	background-color:#ff0000;
 	padding-top: 24px;
@@ -11995,23 +11996,11 @@
 }
 
 
-.overall {
-    /* background-color:#DEDEDE; */
 
-}
-/* body{
-	background-color:;
-	border:10px solid red;
-} */
-/* 
-.white-space{
-    background-color: white;
-    /* height:70px; */
-/* }  */
 .interest-button{
     height:40px;
     width:200px;
-    /* margin-left: 30px; */
+
     margin-bottom: 30px;
 	border-radius: 5px;
 	color:White;
@@ -12023,7 +12012,7 @@
 }
 .full {
 	background-color: #f2f2f2;
-	/* border:10px solid red; */
+	
 }
 input[type=text] {
 	width: 100%;
