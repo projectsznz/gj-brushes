@@ -10082,7 +10082,7 @@
 
 
 
-.project-detail-section  .info-boxs{
+.project-detail-section  .info-box{
 	position:absolute;
 	right:0px;
 	top: 50px;
@@ -10111,7 +10111,7 @@
 
 
 
-.project-detail-section .upper-box .info-boxs .title{
+.project-detail-section .upper-box .info-box .title{
 	position:relative;
 	font-weight:700; 
 	padding:18px 15px;
@@ -12122,8 +12122,8 @@ font-weight: 700;
 .value-box > h4 {
 	text-align: center;
 }
-.review-rating {
+.review-rating > h5{
 	position: absolute;
 	bottom: 1px;
-	left: 250px;
+	left: 220px;
 }
