@@ -10166,6 +10166,7 @@
 .project-detail-section .value-box .rating{
 	position:relative;
 	margin-top:var(--margin-top-15);
+	/* text-align: ; */
 }
 
 .project-detail-section .value-box .rating .fa{
@@ -12118,4 +12119,11 @@ font-weight: 700;
 .container-box{
 	display: flex;
 }
-
+.value-box > h4 {
+	text-align: center;
+}
+.review-rating {
+	position: absolute;
+	bottom: 1px;
+	left: 250px;
+}
