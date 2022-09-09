@@ -683,6 +683,11 @@
 		max-width:100%;
 		margin-top:var(--margin-top-30);
 	}
+	.overall-info-box{
+		position: relative;
+	    bottom: 0px;
+	    left: 0px;
+	}
 	
 	.project-detail-section .more-posts .pull-left{
 		width:100%;
