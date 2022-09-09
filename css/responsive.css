@@ -736,7 +736,21 @@
 		width:100%;
 		margin:0px;
 	}
-	
+	.review-logo-name{
+		margin-right: .4rem;
+	}
+	.inner-box > h2{
+		margin-left: -9.5rem;
+	}
+	.ms-3{
+		margin-right: -3rem;
+	}
+	.review-date{
+		margin-left: 4.4rem;
+	}
+	.user-comment-box{
+		margin-left: 1rem;
+	}
 	.main-header .sticky-header .outer-box{
 		display:block;
 		right: 15px;
