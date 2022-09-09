@@ -10078,10 +10078,12 @@
 	background-color:var(--white-color);
 	box-shadow:0px 0px 35px rgba(0,0,0,0.10);
 }
+.overall-info-box{
+	position: relative;
+	bottom: 647px;
+	left: 303px;
 
-
-
-
+}
 .project-detail-section  .info-box{
 	position:absolute;
 	right:0px;
